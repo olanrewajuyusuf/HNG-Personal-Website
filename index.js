@@ -1,5 +1,5 @@
 window.onload = function () {
-  // Display current UTC time
+  // ===> Display current UTC time
   function updateTime() {
     const currentTimeUTC = document.querySelector(
       '[data-testid="currentTimeUTC"]'
@@ -10,7 +10,7 @@ window.onload = function () {
   updateTime();
   setInterval(updateTime, 1000);
 
-  // Display current day of the week
+  // ===> Display current day of the week
   const days = [
     "Sunday",
     "Monday",
