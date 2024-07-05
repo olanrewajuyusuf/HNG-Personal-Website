@@ -118,7 +118,7 @@ table .strong {
 
 .container ul {
     width: 100%;
-    list-style: none;
+    /* list-style: none; */
     margin: 5rem 0;
 }
 
@@ -132,6 +132,16 @@ table .strong {
     margin: 10px;
     text-decoration: none;
     color: #007BFF;
+    padding: 10px 30px;
+    background-color: rgb(23, 21, 25);
+    border-radius: 5px;
+    box-shadow: 5px 5px, -1px -1px 1px var(--text-color);
+    transition: scale 1s;
+}
+
+.links a:hover {
+    scale: 1.02;
+    box-shadow: 5px 5px 10px 5px black, -1px -1px 1px var(--text-color);
 }
 
 footer {
@@ -174,7 +184,10 @@ footer .wrapper p {
 
     .links a {
         display: block;
-        margin: 10px 0;
+        width: 60%;
+        margin: 20px auto;
+        font-size: 14px;
+        text-align: center;
     }
 }
 
